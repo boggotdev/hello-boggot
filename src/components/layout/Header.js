@@ -112,19 +112,19 @@ const Header = ({
                       navPosition && `header-nav-${navPosition}`
                     )}>
                     <li>
-                      <Link to="#0" onClick={closeMenu}>Home</Link>
+                      <Link to="/" onClick={closeMenu}>Home</Link>
                     </li>
                     <li>
-                      <Link to="#0" onClick={closeMenu}>About-us</Link>
+                      <Link to="/about-us" onClick={closeMenu}>About-us</Link>
                     </li>
                     <li>
-                      <Link to="#0" onClick={closeMenu}>Services</Link>
+                      <Link to="/services" onClick={closeMenu}>Services</Link>
                     </li>
                     <li>
-                      <Link to="#0" onClick={closeMenu}>Team</Link>
+                      <Link to="/team" onClick={closeMenu}>Team</Link>
                     </li>
                     <li>
-                      <Link to="#0" onClick={closeMenu}>Project</Link>
+                      <Link to="/project" onClick={closeMenu}>Project</Link>
                     </li>
                   </ul>
                   {!hideSignin &&
